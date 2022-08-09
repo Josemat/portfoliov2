@@ -1,0 +1,24 @@
+:root {
+  
+/*   Color Palette: */
+--black1:#020300;
+--blueMatte:#005894;
+--greenLime:#32DE8A;
+--lightBlue:#79A9D1;
+--salmon:#D5573B;
+  color: white;
+  margin-top:3rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  margin:0px;
+  background-color: var(--black1);
+}
+html{
+  scroll-behavior: smooth;
+}

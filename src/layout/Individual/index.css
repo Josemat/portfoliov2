@@ -1,0 +1,121 @@
+
+  .project-tile:hover p{
+    opacity: 100%;
+  }
+
+  .projectImg{
+     width: 300px;
+     height: 60%;
+     object-fit: fill;
+     object-position: center top;
+     overflow: visible;
+  }
+  
+  .project-tile{
+    width: 300px;
+    height:350px;
+    margin: 15px;
+    border-radius: 10px ;
+    box-shadow: 1px 4px 13px 8px rgba(0,0,0,0.15);
+    object-fit: contain;
+    overflow: hidden;
+    transition:0.5s;
+    background-color:var(--lightBlue);
+  }
+  .project-tile:hover{
+    box-shadow: 1px 4px 13px 8px rgba(0,0,0,0.45);
+    transform:scale(1.1)  translateY(-20px);
+  }
+  .project-tile img{
+    transition: 0.7s;
+  }
+  .project-tile:hover img{
+  margin-top: -150px;
+  }
+  
+  .project-tile a{
+    color: white;
+    text-decoration:none;
+    transition:0.5s;
+  }
+  .project-tile:hover a{
+    color: black;
+    top: -50px;
+  }
+  h3{
+    font-family:monospace;
+    font-size:2rem;
+    text-align:center;
+    margin: 15px;
+    
+  }
+  a{
+    text-decoration:none;
+  }
+  
+  
+  @media (max-width:850px) {  
+    .projectImg{
+      width: 100%;
+      object-fit: contain;
+      background-color:white;
+      object-position: center top;
+    }  
+    .project-tile{
+    box-shadow: 1px 4px 13px 8px rgba(0,0,0,0.45);
+      width: 75vw;
+      height: 100%;
+    }
+    
+  .project-tile:hover{
+    transform:scale(1)  translateY(0px);
+  }
+  .project-tile:hover img{
+  margin-top: 0px;
+  }
+    .project-tile a{
+      opacity: 100%;
+      color: #020300;
+    }
+    .project-tile p{
+      opacity: 100%;
+    }
+    .project-tile h3{
+      color: #020300;
+    }
+    .contactos{
+      height: auto;
+    }
+    h3{
+      margin: auto;
+    }
+  
+  }
+    
+  .button {
+    pointer-events: none;
+    background-color: var(--greenLime);
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    position:relative;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 1px 3px 8px 2px rgba(0,0,0,0.45);
+  }
+  .button:hover{
+    font-weight: 900;
+  }
+  .superposition{
+    position: absolute;
+    margin-top: 10px;
+  
+  }
+  .iconButton{
+    margin-bottom:-3px ;
+  }
