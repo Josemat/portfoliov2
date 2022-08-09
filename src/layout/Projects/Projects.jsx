@@ -5,17 +5,13 @@ import { proyectos } from './proyectos'
 
 
 const Projects = () => {
-    console.log(proyectos)
+    // console.log(proyectos.adv)
     return <>
         <div className="proy">
             <section id="projects">
                 <h1 id="h1project" className="h1project">Proyectos</h1>
-                <Individual />
-                <Individual />
-                <Individual />
-                <Individual />
-                <Individual />
-                <Individual />
+                <Individual proyecto={proyectos.adv} />
+
 
             </section>
         </div>

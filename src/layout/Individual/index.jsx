@@ -1,27 +1,37 @@
 import React from 'react'
 import './index.css'
 
-const individual = (botones, imagen,) => {
+import html from '../../img/html.png'
+import css from '../../img/css.png'
+import js from '../../img/sj.png'
+import git from '../../img/git.png'
+import mongo from '../../img/mongo.ico'
+import express from '../../img/express.png'
+import react from '../../img/reac.png'
+import node from '../../img/noddde.png'
+import tailwind from '../../img/tailwind-css.webp'
+import bootstrap from '../../img/bootstrap-4.webp'
+import APV from '../../img/APV.webp'
+
+const individual = ({ proyecto }) => {
+    console.log(proyecto.img)
     return (
         <div className="project-tile" >
             <div className="superposition">
-                <button className="button"><img className="iconButton" src="" alt="" width="15" height="15" /> React </button>
-                <button className="button"><img className="iconButton" src="" alt="" width="15" height="15" /> Express </button>
-                <button className="button"><img className="iconButton" src="" alt="" width="15" height="15" /> MongoDB </button>
-                <button className="button"><img className="iconButton" src="" alt="" width="15" height="15" /> NodeJS </button>
-                <button className="button"><img className="iconButton" src="" alt="" width="15" height="15" /> Tailwind CSS </button>
+                <button className="button"><img className="iconButton" src="" alt="" width="15" height="15" /> { } </button>
             </div>
-            <a href="https://regal-faloodeh-f47ee4.netlify.app/" target="_blank" rel="noreferrer" >
-                <img src="" alt="" className="projectImg">
+            <a href={proyecto.link} target="_blank" rel="noreferrer" >
+                <img src={proyecto.img} alt="" className="projectImg">
                 </img>
-                <h3>Página de Administrador de Pacientes</h3>
-                <p>Proyecto final con stack MERN (MongoDB, Express, React, NodeJS) con validación y registro real (usar mail real y verificar carpeta spam). CRUD de DB
+                <h3>{proyecto.title}</h3>
+                <p>
+                    {proyecto.texto}
                 </p>
                 <p>
-                    <a href="https://github.com/Josemat/APV-MERN-FRONT">Ir al FrontEnd (GitHub)</a><br />
+                    <a href={proyecto.front}>Ir al FrontEnd </a><br />
                 </p>
                 <p>
-                    <a href="https://github.com/Josemat/APV-MERN-BACK">Ir al Backend (GitHub)</a><br />
+                    {proyecto.code ? <a href={proyecto.code}>Ir al Backend (GitHub)</a> : null}
                 </p>
             </a>
         </div>
