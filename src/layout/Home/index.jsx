@@ -1,5 +1,5 @@
 import React from 'react'
-import perfil from '../../img/fotoPerfilNva.png'
+import perfil from '../../img/foto.webp'
 import html from '../../img/svg/html5.svg'
 import css from '../../img/svg/css.svg'
 import js from '../../img/svg/js.svg'
@@ -35,23 +35,23 @@ const Home = () => {
                     <h3>Tecnologías que manejo:</h3>
                     <div className="lista">
                         <ul className=''>
-                            <li><img className="imgLi" src={html} alt="html" /> HTML</li>
-                            <li><img className="imgLi" src={css} alt="css" /> CSS</li>
-                            <li><img className="imgLi" src={js} alt="javascript" /> JavaScript</li>
-                            <li><img className="imgLi" src={git} alt="git" /> Git</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={html} alt="html" /> HTML</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={css} alt="css" /> CSS</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={js} alt="javascript" /> JavaScript</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={git} alt="git" /> Git</li>
                         </ul>
                         <ul className=''>
-                            <li><img className="imgLi" src={mongo} alt="mongo" /> MongoDB</li>
-                            <li><img className="imgLi" src={express} alt="express" /> Express</li>
-                            <li><img className="imgLi" src={react} alt="react" /> React</li>
-                            <li><img className="imgLi" src={node} alt="nodejs" /> NodeJS</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={mongo} alt="mongo" /> MongoDB</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={express} alt="express" /> Express</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={react} alt="react" /> React</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={node} alt="nodejs" /> NodeJS</li>
 
                         </ul>
                         <ul className=''>
-                            <li><img className="imgLi" src={tailwind} alt="tailwind-css" /> Tailwind</li>
-                            <li><img className="imgLi" src={bootstrap} alt="bootstrap-4" /> Bootstrap</li>
-                            <li><img className="imgLi" src={photoshop} alt="Photoshop" /> Photoshop</li>
-                            <li><img className="imgLi" src={illus} alt="Illustrator" /> Illustrator</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={tailwind} alt="tailwind-css" /> Tailwind</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={bootstrap} alt="bootstrap-4" /> Bootstrap</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={photoshop} alt="Photoshop" /> Photoshop</li>
+                            <li><img width="50px" height="50px" className="imgLi" src={illus} alt="Illustrator" /> Illustrator</li>
                         </ul>
                     </div>
                 </XyzTransitionGroup>
