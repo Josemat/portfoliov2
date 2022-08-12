@@ -38,6 +38,7 @@
 }
 
 #projects {
+  min-height: 100vh;
   padding: 20px 0px 20px 0px;
   margin: auto;
   display: flex;
