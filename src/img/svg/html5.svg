@@ -1,3 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-aria-label="HTML5" role="img"
-viewBox="0 0 512 512"><path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52"/><path fill="#ef652a" d="M256 472l149-41 35-394H256"/><path fill="#ebebeb" d="M256 208h-75l-5-58h80V94H114l15 171h127zm-1 147l-63-17-4-45h-56l7 89 116 32z"/><path fill="#fff" d="M255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+  <title>file_type_tailwind</title>
+  <title>file_type_git</title>
+  <title>file_type_css</title>
+  <path fill="#e34f26" d="M 6.982 44.922 L 2.978 0 L 47.021 0 L 43.017 44.922 L 24.951 50"/>
+  <path fill="#ef652a" d="M 25.049 46.094 L 39.599 42.09 L 43.017 3.613 L 25.049 3.613"/>
+  <path fill="#ebebeb" d="M 25.049 20.313 L 17.724 20.313 L 17.236 14.649 L 25.049 14.649 L 25.049 9.18 L 11.181 9.18 L 12.646 25.879 L 25.049 25.879 L 25.049 20.313 Z M 24.951 34.668 L 18.799 33.008 L 18.408 28.613 L 12.939 28.613 L 13.623 37.305 L 24.951 40.43 L 24.951 34.668 Z"/>
+  <path fill="#fff" d="M 24.951 20.313 L 24.951 25.879 L 31.787 25.879 L 31.103 33.008 L 24.951 34.668 L 24.951 40.43 L 36.279 37.305 L 37.842 20.313 L 24.951 20.313 Z M 24.951 9.18 L 24.951 14.649 L 38.33 14.649 L 38.818 9.18 L 24.951 9.18 Z"/>
+</svg>

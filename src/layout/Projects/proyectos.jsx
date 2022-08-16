@@ -55,7 +55,7 @@ export const proyectos = {
     title: "API Cryptocompare Cotizador",
     img: "APICRYPTO",
     texto:
-      "API( https://pixabay.com/api/docs/ ) mediante Fetch y Promises para la obtención de los valores o cotizaciones de las criptomonedas y monedas seleccionadas. Se aplica DOM Scripting, validación de datos y muestra de mensajes.",
+      "API( https://min-api.cryptocompare.com/ ) mediante Fetch y Promises para la obtención de los valores o cotizaciones de las criptomonedas y monedas seleccionadas. Se aplica DOM Scripting, validación de datos y muestra de mensajes.",
     front: "https://proy-cotiz-crypto.netlify.app/",
     code: "",
   },
@@ -65,7 +65,7 @@ export const proyectos = {
     title: "API Pixabay Buscador de imágenes",
     img: "APIIMAGEN",
     texto:
-      "Utilización de API(https://pixabay.com/api/docs/) mediante Fetch para la obtención de las imágenes a buscar. Se aplica DOM Scripting, validación de datos y muestra de mensajes. Se crea paginador mediante un generador",
+      "Utilización de API(https://pixabay.com/api/) mediante Fetch para la obtención de las imágenes a buscar. Se aplica DOM Scripting, validación de datos y muestra de mensajes. Se crea paginador mediante un generador",
     front: "https://proy-busq-img.netlify.app/",
     code: "",
   },

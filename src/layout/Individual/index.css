@@ -1,9 +1,8 @@
 .project-tile {
   width: 300px;
-  height: 350px;
+  height: 400px;
   margin: 15px;
   border-radius: 5px;
-  box-shadow: 1px 4px 13px 8px rgba(0, 0, 0, 0.15);
   object-fit: contain;
   overflow: hidden;
   transition: 0.5s;
@@ -21,11 +20,11 @@
   object-fit: fill;
   object-position: center top;
   overflow: visible;
-  transition: 0.7s;
+  transition: 0.5s;
   border-radius: 5px;
 }
 .project-tile:hover .proyecto-imagen {
-  transform: translateY(-100%);
+  transform: translateY(-102%);
 }
 .project-tile .texto {
   transition: 0.3s;
@@ -33,13 +32,12 @@
   transform: translateY(10px);
 }
 .project-tile:hover .texto {
-  transition: 0.7s;
-  transform: translateY(-60%);
+  transform: translateY(-50%);
 }
 .project-tile a {
   font-family: monospace;
   font-size: 1rem;
-  color: white;
+  color: black;
   text-decoration: underline;
   margin-left: 20px;
   padding-bottom: 10px;
@@ -98,6 +96,7 @@
   }
   .project-tile p {
     opacity: 100%;
+    color: black;
   }
   .project-tile h3 {
     color: #020300;

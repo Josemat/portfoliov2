@@ -18,7 +18,7 @@ import BUSCGIF from '../../img/BUSCGIF.avif'
 
 
 const Imagen = ({ img }) => {
-    if (img === 'APV') return <img alt="Administrador Pacientes Veterinaria imagen" src={APV} className="proyecto-imagen" />
+    if (img === 'APV') return <img alt="Administrador Pacientes Veterinaria imagen" src={APV} width='300px' className="proyecto-imagen" />
     if (img === 'APVMERN') return <img alt="Adm. Pacientes Vet. con stack Mern" src={APVMERN} className="proyecto-imagen" />
     if (img === 'ADV') return <img alt="Agencia de Viajes" src={ADV} className="proyecto-imagen" />
     if (img === 'APICANC') return <img alt="Api de Canciones" src={APICANC} className="proyecto-imagen" />

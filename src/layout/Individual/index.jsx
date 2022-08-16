@@ -9,7 +9,7 @@ import { XyzTransition } from '@animxyz/react'
 const individual = ({ proyecto }) => {
     const botones = proyecto.boton
     const toggled = true
-    return (
+    return (<>
         <XyzTransition appear appearVisible={{ threshold: 0.3, rootMargin: '150px' }} xyz="fade down ease-in-out-back">
             {toggled && <div className="project-tile" key={proyecto.link}>
                 <div className="superposition">
@@ -25,6 +25,7 @@ const individual = ({ proyecto }) => {
                 </div>
             </div>}
         </XyzTransition>
+    </>
     )
 }
 
