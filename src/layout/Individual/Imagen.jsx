@@ -1,7 +1,7 @@
 import React from 'react'
 import APV from '../../img/APV.webp'
 import APVMERN from '../../img/APVMERN.webp'
-import ADV from '../../img/agenciaDeViajes.png'
+import ADV from '../../img/agenciaDeViajes (convert.io).webp'
 import APICANC from '../../img/APICANC.webp'
 import APICLIMA from '../../img/APICLIMA.webp'
 import APICRYPTO from '../../img/APICRYPTO.webp'
