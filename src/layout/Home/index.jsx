@@ -5,7 +5,7 @@ import css from '../../img/svg/css.svg'
 import js from '../../img/svg/js.svg'
 import git from '../../img/svg/git.svg'
 import mongo from '../../img/svg/mongo.svg'
-import express from '../../img/express.png'
+import express from '../../img/expresssvg.svg'
 import react from '../../img/svg/react.svg'
 import node from '../../img/svg/node.svg'
 import tailwind from '../../img/svg/tailwind.svg'
@@ -28,8 +28,8 @@ const Home = () => {
                 >
                     <h1 className='square'>Hola! Soy Emmanuel Tulian</h1>
                     <div className="fotoPerfil">
-                        <code>Desarrollador <span className="codeBlack">FullStack</span> | Desde Córdoba Argentina 🇦🇷 | Autodidacta, proactivo, dinámico, amante del aprendizaje y desafíos. </code>
-                        <img src={perfil} alt="fotoPerfil" className="fotoPerfilImg " />
+                        <h2>Desarrollador <span className="codeBlack">FullStack</span> | Desde Córdoba Argentina 🇦🇷 | Autodidacta, proactivo, dinámico, amante del aprendizaje y desafíos. </h2>
+                        <img src={perfil} width={"300px"} height={'300px'} alt="fotoPerfil" className="fotoPerfilImg " />
                     </div>
 
                     <h3>Tecnologías que manejo:</h3>
@@ -42,7 +42,7 @@ const Home = () => {
                         </ul>
                         <ul className=''>
                             <li><img width="50px" height="50px" className="imgLi" src={mongo} alt="mongo" /> MongoDB</li>
-                            <li><img width="50px" height="50px" className="imgLi" src={express} alt="express" /> Express</li>
+                            <li><img width="50px" height="50px" className="imgLi" style={{ backgroundColor: 'white' }} src={express} alt="express" /> Express</li>
                             <li><img width="50px" height="50px" className="imgLi" src={react} alt="react" /> React</li>
                             <li><img width="50px" height="50px" className="imgLi" src={node} alt="nodejs" /> NodeJS</li>
 

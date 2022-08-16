@@ -21,7 +21,7 @@ const Projects = () => {
         <Suspense fallback={<div>Loading...</div>}>
             <div className="proy">
                 <section id="projects">
-                    <h1 id="h1project" className="h1project">Proyectos</h1>
+                    <h1 id="h1project" className="">Proyectos</h1>
                     <XyzTransition appear={false} xyz="fade down ease-in-out-back">
                         {tecnologia && <h1 > {tecnologia} </h1>}
                     </XyzTransition>

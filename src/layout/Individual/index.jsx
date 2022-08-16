@@ -10,7 +10,7 @@ const individual = ({ proyecto }) => {
     const botones = proyecto.boton
     const toggled = true
     return (
-        <XyzTransition appear appearVisible={{ threshold: 0.5, rootMargin: '50px' }} xyz="fade down ease-in-out-back">
+        <XyzTransition appear appearVisible={{ threshold: 0.3, rootMargin: '150px' }} xyz="fade down ease-in-out-back">
             {toggled && <div className="project-tile" key={proyecto.link}>
                 <div className="superposition">
                     {botones.map(boton => <button className="button" key={boton += 1}><Svgs icon={boton} /> {boton}</button>

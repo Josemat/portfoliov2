@@ -29,9 +29,16 @@
 .h2icon {
   color: var(--lightBlue);
   color: black;
+  text-align: center;
   transition: 0.3s;
 }
 .h2icon:hover {
+  color: white;
+}
+.h1project {
+  color: black;
+}
+.h1project:hover {
   color: white;
 }
 a {
