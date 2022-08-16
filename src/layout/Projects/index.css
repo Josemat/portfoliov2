@@ -11,6 +11,10 @@
 }
 .botonera {
   margin: 0px 50px 0px 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .button2 {
   cursor: pointer;
