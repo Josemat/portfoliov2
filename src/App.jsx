@@ -1,14 +1,15 @@
 import React, { lazy, Suspense } from 'react'
 import './App.css'
 import Home from './layout/Home'
-import Projects from './layout/Projects/Projects'
 import Navbar from './layout/Navbar/Navbar'
-const Contact = React.lazy(() => import('./layout/Contact/Contact'))
+import Spinner from './Spinner/Spinner'
+const Projects = lazy(() => import('./layout/Projects/Projects'))
+const Contact = lazy(() => import('./layout/Contact/Contact'))
 
 function App() {
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Spinner />}>
         <Navbar />
         <Home />
         <Projects />

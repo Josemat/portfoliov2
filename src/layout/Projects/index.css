@@ -39,7 +39,9 @@
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
-
+button img {
+  transform: translateY(2.5px);
+}
 #projects {
   min-height: 100vh;
   max-width: 1080px;

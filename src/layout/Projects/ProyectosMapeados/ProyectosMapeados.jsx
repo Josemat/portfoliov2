@@ -1,6 +1,6 @@
 import React, { lazy, useState, useEffect } from 'react'
 import { proyectos } from '../proyectos';
-const Individual = React.lazy(() => import('../../Individual/index'));
+const Individual = lazy(() => import('../../Individual/index'));
 
 const ProyectosMapeados = ({ tecnologia }) => {
 
