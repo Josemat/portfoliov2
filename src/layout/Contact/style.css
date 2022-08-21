@@ -41,6 +41,9 @@
 .h1project:hover {
   color: white;
 }
+.github {
+  text-align: end;
+}
 a {
   text-decoration: none;
 }

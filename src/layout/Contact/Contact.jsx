@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 
 const Contact = () => {
+    const anio = new Date
     return (
         <div>
             <section id="contact">
@@ -32,7 +33,8 @@ const Contact = () => {
             </section>
             <div>
                 <footer>
-                    <em>Emmanuel Tulian. Todos los derechos reservados {'2022'}</em>
+                    <em>Emmanuel Tulian. Todos los derechos reservados {anio.getFullYear()} </em><em className='github'>Backend de la página en <a href="https://github.com/Josemat/portfoliov2">Github</a></em>
+
                 </footer>
             </div>
         </div>
