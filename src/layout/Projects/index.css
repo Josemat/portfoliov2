@@ -10,7 +10,7 @@
   padding: 0px;
 }
 .botonera {
-  margin: 0px 50px 0px 50px;
+  margin: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -39,12 +39,15 @@
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
+h1 {
+  margin: 5px;
+}
 button img {
   transform: translateY(2.5px);
 }
 #projects {
   max-width: 1080px;
-  padding: 20px 0px 20px 0px;
+  padding: 40px 0px 20px 0px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -65,6 +68,8 @@ button img {
   }
   h1 {
     font-size: 3rem;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
   .h1project {
     width: auto;
