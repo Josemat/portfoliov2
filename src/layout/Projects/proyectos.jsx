@@ -15,7 +15,7 @@ export const proyectos = {
     img: "BUSCGIF",
     title: "Buscador de Gifs con React",
     texto:
-      "Utilizando la API de Giphy se realiza un buscador de gifs con scroll infinito, Wouter para el routing y la seccion trending con conditional component",
+      "Utilizando la API de Giphy se realiza un buscador de gifs con scroll infinito, Wouter para el routing y la sección trending con conditional component",
     front: "https://buscador-gif-react.netlify.app/",
     code: "https://github.com/Josemat/giffy",
   },
@@ -25,28 +25,28 @@ export const proyectos = {
     img: "APV",
     title: "Página de Administrador de Pacientes",
     texto:
-      "Proyecto final con stack MERN (MongoDBDB, Express, React, NodeJSJS) con validación y registro real (usar mail real y verificar carpeta spam). CRUD de DB",
-    front: "https://github.com/Josemat/APV-MERN-FRONT",
+      "Proyecto final CRUD con stack MERN (MongoDB, Express, React, NodeJS) con validación y registro real (usar mail real y verificar carpeta spam). DB desplegada en Heroku",
+    front: "https://regal-faloodeh-f47ee4.netlify.app/",
     code: "https://github.com/Josemat/APV-MERN-BACK",
   },
   adv: {
     boton: ["PUG", "MySQL", "NodeJS", "Bootstrap"],
-    link: "https://immense-fjord-63838.herokuapp.com",
+    link: "https://paginaviaje-production.up.railway.app/",
     title: "Página Agencia de Viajes con DB",
     img: "ADV",
     texto:
-      "Proyecto con introducción a NodeJSJS, PUG, Express, Sequielize, NodeJSmon, Dotenv y MySQL. Desplegado en Heroku",
-    front: "https://immense-fjord-63838.herokuapp.com",
+      "Proyecto con introducción a NodeJS, PUG, Express, Sequelize, Nodemon, Dotenv y MySQL. Desplegado en Railway.app",
+    front: "https://paginaviaje-production.up.railway.app/",
     code: "https://github.com/Josemat/PaginaViaje",
   },
   cotpres: {
     boton: ["React", "Skeleton"],
-    link: "https://proy-React.netlify.app/",
+    link: "https://proy-react.netlify.app/",
     title: "Cotizador de préstamos React",
     img: "COTS",
     texto:
       "Proyecto creado en React, aprendiendo lo que es components, hooks, props y conditional components",
-    front: "https://proy-cotiz-crypto.netlify.app/",
+    front: "https://proy-react.netlify.app/",
     code: "",
   },
   apicrypto: {
@@ -86,8 +86,8 @@ export const proyectos = {
     img: "APICLIMA",
     texto:
       "Utilización de API( https://openweathermap.org ) mediante Async Await para la obtención de los datos del clima de la ciudad seleccionada. Se aplica DOM Scripting, validación de datos y muestra de mensajes",
-    front: "https://github.com/Josemat/proy-api-weather",
-    code: "",
+    front: "https://josemat.github.io/proy-api-weather/",
+    code: "https://github.com/Josemat/proy-api-weather",
   },
   crmidb: {
     boton: ["JavaScript", "Bootstrap"],
@@ -131,12 +131,12 @@ export const proyectos = {
   },
   carritolc: {
     boton: ["JavaScript"],
-    link: "https://proy-carrito-con-localstorage.netlify",
+    link: "https://proy-carrito-con-localstorage.netlify.app/",
     title: "Carrito con LocalStorage",
     img: "CARRITO",
     texto:
       "Al carrito del principio le agregamos la funcionalidad de guardar los productos en LocalStorage",
-    front: "https://proy-carrito-con-localstorage.netlify",
+    front: "https://proy-carrito-con-localstorage.netlify.app/",
     code: "",
   },
   twlcs: {
@@ -168,15 +168,5 @@ export const proyectos = {
       "En éste proyecto se aplica la validación de campos, en el cual si no se le agrega ningún valor el mismo se pinta de rojo, caso contrario de verde. Así como el botón de enviar permanece deshabilitado y en caso de estar todo OK se habilita y muestra un spiner de carga con un mensaje",
     front: "https://proy-validar-datos-mail.netlify.app/",
     code: "",
-  },
-  twlcs: {
-    boton: ["JavaScript"],
-    link: "https://proy-localstorage.netlify.app/",
-    title: "Tweets con LocalStorage",
-    img: "TWLCS",
-    texto:
-      "Creador de mensajes cortos, los cuales quedan almacenados en LocalStorage para no perderlos al actualizar la pagina",
-    front: "https://proy-localstorage.netlify.app/",
-    code: "",
-  },
+  }
 };

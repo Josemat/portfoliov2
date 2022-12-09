@@ -28,7 +28,7 @@ const Home = () => {
                 >
                     <h1 className='square'>Hola! Soy Emmanuel Tulian</h1>
                     <div className="fotoPerfil">
-                        <h2>Desarrollador <span className="codeBlack">FullStack</span> | Desde Córdoba Argentina 🇦🇷 | Autodidacta, proactivo, dinámico, amante del aprendizaje y desafíos. </h2>
+                        <h2>Desarrollador <span className="codeBlack">FullStack</span> | Desde Córdoba Argentina 🇦🇷 | Autodidacta, dinámico, amante de los desafíos. </h2>
                         <img src={perfil} width={"300px"} height={'300px'} alt="fotoPerfil" className="fotoPerfilImg " />
                     </div>
 
