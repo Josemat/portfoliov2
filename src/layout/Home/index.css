@@ -6,7 +6,7 @@
 }
 .fotoPerfilImg {
   border-radius: 50%;
-  background-color: #005894;
+  background-color: #005994f5;
 }
 .fotoPerfil {
   margin-bottom: 100px;
@@ -25,11 +25,13 @@ h1 {
   color: white;
   font-size: 4rem;
   margin: 0px 0px 25px 20px;
-  font-family: monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: 0.5s;
 }
 p {
-  font-family: monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   opacity: 0%;
   color: #020300;
   margin: 10px;
@@ -56,7 +58,8 @@ ul {
 li {
   color: white;
   font-size: 1.7rem;
-  font-family: monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top: 10px;
   transition: 0.5s;
 }
@@ -67,7 +70,8 @@ li {
 }
 
 h2 {
-  font-family: monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top: 2em;
   color: white;
   font-size: 1.8rem;
@@ -86,7 +90,8 @@ h2 {
 }
 
 h3 {
-  font-family: monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 2rem;
   text-align: center;
   margin: 15px;

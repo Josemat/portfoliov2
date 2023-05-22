@@ -21,7 +21,7 @@ const individual = ({ proyecto }) => {
                     <h3>{proyecto.title}</h3>
                     <p>{proyecto.texto}</p>
                     <a href={proyecto.front} target="_blank">Ir al proyecto</a>
-                    {proyecto.code ? <a href={proyecto.code} target="_blank">Ir al Backend (GitHub)</a> : null}
+                    {proyecto.code ? <a href={proyecto.code} target="_blank">Ir al repositorio (GitHub)</a> : null}
                 </div>
             </div>}
         </XyzTransition>

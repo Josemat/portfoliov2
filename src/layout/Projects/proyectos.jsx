@@ -9,8 +9,18 @@ export const proyectos = {
   //   front: "",
   //   code: "",
   // },
+  asist: {
+    boton: ["React", "Typescript", "Vite", "MUI", "Firebase"],
+    link: "",
+    img: "ASIS",
+    title: "Organizador de Asistencias",
+    texto:
+      "Se crea un organizador de asistencias para agilizar el reparto de actividades y reemplazar el papel. Creado en Typescript y Firebase para el registro y almacenamiento, con historial para lograr trazabilidad de fallas comunes",
+    front: "https://asistenciasredbus.netlify.app/",
+    code: "https://github.com/Josemat/App-Ts",
+  },
   giphy: {
-    boton: ["React"],
+    boton: ["React", "JavaScript"],
     link: "https://buscador-gif-react.netlify.app/",
     img: "BUSCGIF",
     title: "Buscador de Gifs con React",
@@ -132,10 +142,10 @@ export const proyectos = {
   carritolc: {
     boton: ["JavaScript"],
     link: "https://proy-carrito-con-localstorage.netlify.app/",
-    title: "Carrito con LocalStorage",
+    title: "Carro de compras para E-commerce",
     img: "CARRITO",
     texto:
-      "Al carrito del principio le agregamos la funcionalidad de guardar los productos en LocalStorage",
+      "Se crea un carrito de compras con la funcionalidad de guardar los productos en LocalStorage",
     front: "https://proy-carrito-con-localstorage.netlify.app/",
     code: "",
   },

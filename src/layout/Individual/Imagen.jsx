@@ -13,6 +13,7 @@ import CRMIDB from '../../img/CRMIDB.webp'
 import GastoSemanal from '../../img/GastoSemanal.webp'
 import TWLCS from '../../img/TWLCS.webp'
 import VALDA from '../../img/VALDA.webp'
+import ASIS from '../../img/ASIS.webp'
 import BUSCGIF from '../../img/BUSCGIF.avif'
 
 
@@ -33,6 +34,7 @@ const Imagen = ({ img }) => {
     if (img === 'TWLCS') return <img alt="Similar a twitter con localstorage" src={TWLCS} className="proyecto-imagen" />
     if (img === 'VALDA') return <img alt="Formulario de validacion de datos" src={VALDA} className="proyecto-imagen" />
     if (img === 'BUSCGIF') return <img alt="Buscador de Gifs giphy" src={BUSCGIF} className="proyecto-imagen" />
+    if (img === 'ASIS') return <img alt="Buscador de Gifs giphy" src={ASIS} className="proyecto-imagen" />
     return <img alt="Nada" src={''} className="proyecto-imagen" />
 }
 

@@ -20,11 +20,11 @@
   align-items: center;
   border-radius: 10px;
   padding: 10px;
-  transition: 0.5s;
+  transition: 0.25s;
 }
 .icon:hover {
   transform: translateY(-30px);
-  box-shadow: 1px 4px 13px 8px rgba(0, 0, 0, 0.45);
+  box-shadow: 1px 13px 13px 10px rgba(0, 0, 0, 0.45);
 }
 .h2icon {
   color: var(--lightBlue);
@@ -49,6 +49,8 @@ a {
 }
 footer {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
   padding: 20px 0px 0px 0px;
   background-color: var(--lightBlue);
   height: 3rem;

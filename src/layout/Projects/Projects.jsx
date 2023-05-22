@@ -31,6 +31,10 @@ const Projects = () => {
                     <button className="button2" onClick={() => setTecnologia('MySQL')} ><Svgs icon={'MySQL'} /> MySQL</button>
                     <button className="button2" onClick={() => setTecnologia('Bootstrap')} ><Svgs icon={'Bootstrap'} /> Bootstrap</button>
                     <button className="button2" onClick={() => setTecnologia('TailwindCSS')} ><Svgs icon={'TailwindCSS'} /> TailwindCSS</button>
+                    <button className="button2" onClick={() => setTecnologia('Typescript')} ><Svgs icon={'Typescript'} /> Typescript</button>
+                    <button className="button2" onClick={() => setTecnologia('Vite')} ><Svgs icon={'Vite'} /> Vite</button>
+                    <button className="button2" onClick={() => setTecnologia('MUI')} ><Svgs icon={'MUI'} /> MUI</button>
+                    <button className="button2" onClick={() => setTecnologia('Firebase')} ><Svgs icon={'Firebase'} /> Firebase</button>
                 </div>
                 <ProyectosMapeados tecnologia={tecnologia} />
             </div>

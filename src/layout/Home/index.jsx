@@ -28,11 +28,11 @@ const Home = () => {
                 >
                     <h1 className='square'>Hola! Soy Emmanuel Tulian</h1>
                     <div className="fotoPerfil">
-                        <h2>Desarrollador <span className="codeBlack">FullStack</span> | Desde Córdoba Argentina 🇦🇷 | Autodidacta, dinámico, amante de los desafíos. </h2>
+                        <h2>Desarrollador <span className="codeBlack">FullStack</span> autodidacta, con una fuerte pasión por el FrontEnd y las nuevas tecnologías | Desde Córdoba Argentina 🇦🇷 |  </h2>
                         <img src={perfil} width={"300px"} height={'300px'} alt="fotoPerfil" className="fotoPerfilImg " />
                     </div>
 
-                    <h3>Tecnologías que manejo:</h3>
+                    {/* <h3>Tecnologías que manejo:</h3>
                     <div className="lista">
                         <ul className=''>
                             <li><img width="50px" height="50px" className="imgLi" src={html} alt="html" /> HTML</li>
@@ -53,7 +53,7 @@ const Home = () => {
                             <li><img width="50px" height="50px" className="imgLi" src={photoshop} alt="Photoshop" /> Photoshop</li>
                             <li><img width="50px" height="50px" className="imgLi" src={illus} alt="Illustrator" /> Illustrator</li>
                         </ul>
-                    </div>
+                    </div> */}
                 </XyzTransitionGroup>
             </div>
         </div>

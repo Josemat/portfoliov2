@@ -33,7 +33,7 @@ const Contact = () => {
             </section>
             <div>
                 <footer>
-                    <em>Emmanuel Tulian. Todos los derechos reservados {anio.getFullYear()} </em><em className='github'>Backend de la página en <a href="https://github.com/Josemat/portfoliov2">Github</a></em>
+                    <em>Emmanuel Tulian. Todos los derechos reservados {anio.getFullYear()} </em><em className='github'>Repo de la página en <a href="https://github.com/Josemat/portfoliov2">Github</a></em>
 
                 </footer>
             </div>
