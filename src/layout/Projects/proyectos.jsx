@@ -35,60 +35,60 @@ export const proyectos = {
     img: "APV",
     title: "Página de Administrador de Pacientes",
     texto:
-      "Proyecto final CRUD con stack MERN (MongoDB, Express, React, NodeJS) con validación y registro real (usar mail real y verificar carpeta spam). DB desplegada en Heroku",
+      "Proyecto final CRUD con stack MERN (MongoDB, Express, React, NodeJS) con validación y registro real (usar mail real y verificar carpeta spam). DB desplegada en fl0.com",
     front: "https://regal-faloodeh-f47ee4.netlify.app/",
     code: "https://github.com/Josemat/APV-MERN-BACK",
   },
   adv: {
     boton: ["PUG", "MySQL", "NodeJS", "Bootstrap"],
-    link: "https://paginaviaje-production.up.railway.app/",
+    link: "https://paginaviajes.onrender.com",
     title: "Página Agencia de Viajes con DB",
     img: "ADV",
     texto:
-      "Proyecto con introducción a NodeJS, PUG, Express, Sequelize, Nodemon, Dotenv y MySQL. Desplegado en Railway.app",
-    front: "https://paginaviaje-production.up.railway.app/",
+      "Proyecto con introducción a NodeJS, PUG, Express, Sequelize, Nodemon, Dotenv y MySQL. Desplegado en Render.com",
+    front: "https://paginaviajes.onrender.com",
     code: "https://github.com/Josemat/PaginaViaje",
   },
-  cotpres: {
-    boton: ["React", "Skeleton"],
-    link: "https://proy-react.netlify.app/",
-    title: "Cotizador de préstamos React",
-    img: "COTS",
-    texto:
-      "Proyecto creado en React, aprendiendo lo que es components, hooks, props y conditional components",
-    front: "https://proy-react.netlify.app/",
-    code: "",
-  },
-  apicrypto: {
-    boton: ["JavaScript"],
-    link: "https://proy-cotiz-crypto.netlify.app/",
-    title: "API Cryptocompare Cotizador",
-    img: "APICRYPTO",
-    texto:
-      "API( https://min-api.cryptocompare.com/ ) mediante Fetch y Promises para la obtención de los valores o cotizaciones de las criptomonedas y monedas seleccionadas. Se aplica DOM Scripting, validación de datos y muestra de mensajes.",
-    front: "https://proy-cotiz-crypto.netlify.app/",
-    code: "",
-  },
-  apiimagen: {
-    boton: ["JavaScript", "TailwindCSS"],
-    link: "https://proy-busq-img.netlify.app/",
-    title: "API Pixabay Buscador de imágenes",
-    img: "APIIMAGEN",
-    texto:
-      "Utilización de API(https://pixabay.com/api/) mediante Fetch para la obtención de las imágenes a buscar. Se aplica DOM Scripting, validación de datos y muestra de mensajes. Se crea paginador mediante un generador",
-    front: "https://proy-busq-img.netlify.app/",
-    code: "",
-  },
-  apicanc: {
-    boton: ["JavaScript"],
-    link: "https://proy-api-canciones.netlify.app/",
-    title: "API lyrics.ovh Buscador de canciones",
-    img: "APICANC",
-    texto:
-      "Utilización de API( https://lyricsovh.docs.apiary.io/# ) mediante Fetch para la obtención de las letras de las canciones seleccionadas. Se aplica DOM Scripting, validación de datos y muestra de mensajes",
-    front: "https://proy-api-canciones.netlify.app/",
-    code: "",
-  },
+  // cotpres: {
+  //   boton: ["React", "Skeleton"],
+  //   link: "https://proy-react.netlify.app/",
+  //   title: "Cotizador de préstamos React",
+  //   img: "COTS",
+  //   texto:
+  //     "Proyecto creado en React, aprendiendo lo que es components, hooks, props y conditional components",
+  //   front: "https://proy-react.netlify.app/",
+  //   code: "",
+  // },
+  // apicrypto: {
+  //   boton: ["JavaScript"],
+  //   link: "https://proy-cotiz-crypto.netlify.app/",
+  //   title: "API Cryptocompare Cotizador",
+  //   img: "APICRYPTO",
+  //   texto:
+  //     "API( https://min-api.cryptocompare.com/ ) mediante Fetch y Promises para la obtención de los valores o cotizaciones de las criptomonedas y monedas seleccionadas. Se aplica DOM Scripting, validación de datos y muestra de mensajes.",
+  //   front: "https://proy-cotiz-crypto.netlify.app/",
+  //   code: "",
+  // },
+  // apiimagen: {
+  //   boton: ["JavaScript", "TailwindCSS"],
+  //   link: "https://proy-busq-img.netlify.app/",
+  //   title: "API Pixabay Buscador de imágenes",
+  //   img: "APIIMAGEN",
+  //   texto:
+  //     "Utilización de API(https://pixabay.com/api/) mediante Fetch para la obtención de las imágenes a buscar. Se aplica DOM Scripting, validación de datos y muestra de mensajes. Se crea paginador mediante un generador",
+  //   front: "https://proy-busq-img.netlify.app/",
+  //   code: "",
+  // },
+  // apicanc: {
+  //   boton: ["JavaScript"],
+  //   link: "https://proy-api-canciones.netlify.app/",
+  //   title: "API lyrics.ovh Buscador de canciones",
+  //   img: "APICANC",
+  //   texto:
+  //     "Utilización de API( https://lyricsovh.docs.apiary.io/# ) mediante Fetch para la obtención de las letras de las canciones seleccionadas. Se aplica DOM Scripting, validación de datos y muestra de mensajes",
+  //   front: "https://proy-api-canciones.netlify.app/",
+  //   code: "",
+  // },
   apiclima: {
     boton: ["JavaScript", "TailwindCSS"],
     link: "https://josemat.github.io/proy-api-weather/",
@@ -109,74 +109,74 @@ export const proyectos = {
     front: "https://proy-crmindexeddb.netlify.app/",
     code: "",
   },
-  apv: {
-    boton: ["JavaScript", "Bootstrap"],
-    link: "https://proy-adm-citas.netlify.app",
-    title: "Administrador citas indexedDB",
-    img: "APV",
-    texto:
-      "En este proyecto se aplica validación de campos, mensajes de estado, DOM Scripting, CRUD, edición de valores, creación y utilización de base de datos indexedDB con sus respectivas transacciones",
-    front: "https://proy-adm-citas.netlify.app",
-    code: "",
-  },
-  gastoSemanal: {
-    boton: ["JavaScript", "Bootstrap"],
-    link: "https://proy-gasto-semanal.netlify.app/",
-    title: "Calculador de gasto semanal",
-    img: "GastoSemanal",
-    texto:
-      "Proyecto en el que se ingresa un monto inicial y a medida que se agregan gastos va generando diferentes alertas visuales (resto mayor al 50% Verde, menor a 50% amarillo y menor de 25% en rojo) haciendo los cálculos correspondientes en el apartado derecho, permitiendo además borrar los ítems en caso de necesitarlo",
-    front: "https://proy-gasto-semanal.netlify.app/",
-    code: "",
-  },
-  cots: {
-    boton: ["JavaScript", "TailwindCSS"],
-    link: "https://proy-cotizador-seguros.netlify.app/",
-    title: "Cotizador de seguros",
-    img: "COTS",
-    texto:
-      "El proyecto se creo utilizando Prototypes, validación de campos un spinner y mensaje de alerta. Se seleccionan los valores y el resultado va a variar dependiendo de las variables aplicadas",
-    front: "https://proy-cotizador-seguros.netlify.app/",
-    code: "",
-  },
-  carritolc: {
-    boton: ["JavaScript"],
-    link: "https://proy-carrito-con-localstorage.netlify.app/",
-    title: "Carro de compras para E-commerce",
-    img: "CARRITO",
-    texto:
-      "Se crea un carrito de compras con la funcionalidad de guardar los productos en LocalStorage",
-    front: "https://proy-carrito-con-localstorage.netlify.app/",
-    code: "",
-  },
-  twlcs: {
-    boton: ["JavaScript"],
-    link: "https://proy-localstorage.netlify.app/",
-    title: "Tweets con LocalStorage",
-    img: "TWLCS",
-    texto:
-      "Creador de mensajes cortos, los cuales quedan almacenados en LocalStorage para no perderlos al actualizar la pagina",
-    front: "https://proy-localstorage.netlify.app/",
-    code: "",
-  },
-  buscve: {
-    boton: ["JavaScript"],
-    link: "https://proy-buscador-vehiculos.netlify.app/",
-    title: "Buscador vehículos",
-    img: "BUSCVE",
-    texto:
-      "Un proyecto que filtra los resultados utilizando array methods para desplegar los resultado",
-    front: "https://proy-buscador-vehiculos.netlify.app/",
-    code: "",
-  },
-  valda: {
-    boton: ["JavaScript", "TailwindCSS"],
-    link: "https://proy-validar-datos-mail.netlify.app/",
-    title: "Validar campos",
-    img: "VALDA",
-    texto:
-      "En éste proyecto se aplica la validación de campos, en el cual si no se le agrega ningún valor el mismo se pinta de rojo, caso contrario de verde. Así como el botón de enviar permanece deshabilitado y en caso de estar todo OK se habilita y muestra un spiner de carga con un mensaje",
-    front: "https://proy-validar-datos-mail.netlify.app/",
-    code: "",
-  }
+  // apv: {
+  //   boton: ["JavaScript", "Bootstrap"],
+  //   link: "https://proy-adm-citas.netlify.app",
+  //   title: "Administrador citas indexedDB",
+  //   img: "APV",
+  //   texto:
+  //     "En este proyecto se aplica validación de campos, mensajes de estado, DOM Scripting, CRUD, edición de valores, creación y utilización de base de datos indexedDB con sus respectivas transacciones",
+  //   front: "https://proy-adm-citas.netlify.app",
+  //   code: "",
+  // },
+  // gastoSemanal: {
+  //   boton: ["JavaScript", "Bootstrap"],
+  //   link: "https://proy-gasto-semanal.netlify.app/",
+  //   title: "Calculador de gasto semanal",
+  //   img: "GastoSemanal",
+  //   texto:
+  //     "Proyecto en el que se ingresa un monto inicial y a medida que se agregan gastos va generando diferentes alertas visuales (resto mayor al 50% Verde, menor a 50% amarillo y menor de 25% en rojo) haciendo los cálculos correspondientes en el apartado derecho, permitiendo además borrar los ítems en caso de necesitarlo",
+  //   front: "https://proy-gasto-semanal.netlify.app/",
+  //   code: "",
+  // },
+  // cots: {
+  //   boton: ["JavaScript", "TailwindCSS"],
+  //   link: "https://proy-cotizador-seguros.netlify.app/",
+  //   title: "Cotizador de seguros",
+  //   img: "COTS",
+  //   texto:
+  //     "El proyecto se creo utilizando Prototypes, validación de campos un spinner y mensaje de alerta. Se seleccionan los valores y el resultado va a variar dependiendo de las variables aplicadas",
+  //   front: "https://proy-cotizador-seguros.netlify.app/",
+  //   code: "",
+  // },
+  // carritolc: {
+  //   boton: ["JavaScript"],
+  //   link: "https://proy-carrito-con-localstorage.netlify.app/",
+  //   title: "Carro de compras para E-commerce",
+  //   img: "CARRITO",
+  //   texto:
+  //     "Se crea un carrito de compras con la funcionalidad de guardar los productos en LocalStorage",
+  //   front: "https://proy-carrito-con-localstorage.netlify.app/",
+  //   code: "",
+  // },
+  // twlcs: {
+  //   boton: ["JavaScript"],
+  //   link: "https://proy-localstorage.netlify.app/",
+  //   title: "Tweets con LocalStorage",
+  //   img: "TWLCS",
+  //   texto:
+  //     "Creador de mensajes cortos, los cuales quedan almacenados en LocalStorage para no perderlos al actualizar la pagina",
+  //   front: "https://proy-localstorage.netlify.app/",
+  //   code: "",
+  // },
+  // buscve: {
+  //   boton: ["JavaScript"],
+  //   link: "https://proy-buscador-vehiculos.netlify.app/",
+  //   title: "Buscador vehículos",
+  //   img: "BUSCVE",
+  //   texto:
+  //     "Un proyecto que filtra los resultados utilizando array methods para desplegar los resultado",
+  //   front: "https://proy-buscador-vehiculos.netlify.app/",
+  //   code: "",
+  // },
+  // valda: {
+  //   boton: ["JavaScript", "TailwindCSS"],
+  //   link: "https://proy-validar-datos-mail.netlify.app/",
+  //   title: "Validar campos",
+  //   img: "VALDA",
+  //   texto:
+  //     "En éste proyecto se aplica la validación de campos, en el cual si no se le agrega ningún valor el mismo se pinta de rojo, caso contrario de verde. Así como el botón de enviar permanece deshabilitado y en caso de estar todo OK se habilita y muestra un spiner de carga con un mensaje",
+  //   front: "https://proy-validar-datos-mail.netlify.app/",
+  //   code: "",
+  // }
 };
