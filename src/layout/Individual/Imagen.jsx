@@ -15,6 +15,7 @@ import TWLCS from '../../img/TWLCS.webp'
 import VALDA from '../../img/VALDA.webp'
 import ASIS from '../../img/ASIS.webp'
 import BUSCGIF from '../../img/BUSCGIF.avif'
+import INM from '../../img/INM.avif'
 
 
 
@@ -35,6 +36,7 @@ const Imagen = ({ img }) => {
     if (img === 'VALDA') return <img alt="Formulario de validacion de datos" src={VALDA} className="proyecto-imagen" />
     if (img === 'BUSCGIF') return <img alt="Buscador de Gifs giphy" src={BUSCGIF} className="proyecto-imagen" />
     if (img === 'ASIS') return <img alt="Buscador de Gifs giphy" src={ASIS} className="proyecto-imagen" />
+    if (img === 'INM') return <img alt="Buscador de Gifs giphy" src={INM} className="proyecto-imagen" />
     return <img alt="Nada" src={''} className="proyecto-imagen" />
 }
 

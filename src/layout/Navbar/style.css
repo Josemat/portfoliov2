@@ -22,7 +22,7 @@ nav {
   border-radius: 15px 0px 0px 15px;
 }
 nav a {
-  background-color: rgba(0, 0, 0, 0.15);
+  /* background-color: rgba(0, 0, 0, 0.15); */
   font-size: 20px;
   width: auto;
   color: white;
@@ -37,7 +37,9 @@ nav a {
   transition: transform 0.2s;
 }
 nav a:hover {
-  border: var(--lightBlue) solid;
+  /* border: var(--lightBlue) solid; */
+  color: var(--lightBlue);
+  background-color: rgba(0, 0, 0, 0.5);
   /* transform: scale(1.1); */
 }
 @media (max-width: 500px) {

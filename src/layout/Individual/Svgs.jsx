@@ -27,9 +27,11 @@ const Svgs = ({ icon = "node" }) => {
   if (icon === "MySQL") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={mysql} />;
   if (icon === "Bootstrap") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={bootstrap} />;
   if (icon === "TailwindCSS") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={tailwind} />;
+  if (icon === "MaterialTailwind") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={tailwind} />;
   if (icon === "Typescript") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={typescript} />;
   if (icon === "Vite") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={vite} />;
   if (icon === "MUI") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={mui} />;
   if (icon === "Firebase") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={firebase} />;
+  if (icon === "Firestore") return <img alt={icon} key={icon} width={'15px'} height={'15px'} src={firebase} />;
 };
 export default Svgs;
