@@ -16,7 +16,7 @@ export const proyectos = {
     title: "Inmobiliaria en Córdoba",
     texto:
       "Página creada para una inmobiliaria en crecimiento de la ciudad de Córdoba, la misma cuenta con su base de datos en Firebase, hosting de imágenes en Firestore, mapas de Openstreet, envío de mails para contacto. Además cuenta con su sección de Admin para que su dueña administre sus publicaciones ",
-    front: "https://inmobiliariaveronicaoliva.com.ar",
+    front: "https://gleeful-mermaid-4e4967.netlify.app",
     code: "",
   },
   asist: {

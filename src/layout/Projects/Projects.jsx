@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 import "@animxyz/core";
 import { XyzTransition } from '@animxyz/react'
@@ -11,7 +11,7 @@ import ProyectosMapeados from './ProyectosMapeados/ProyectosMapeados';
 
 const Projects = () => {
     const [tecnologia, setTecnologia] = useState('')
-    const tecnologiasMap = ["React", "NodeJS", "PUG", "JavaScript", "Express", "MongoDB", "Skeleton", "MySQL", "Bootstrap", "TailwindCSS", "Typescript", "Vite", "MUI", "Firebase"]
+    const tecnologiasMap = ["React", "NodeJS", "PUG", "JavaScript", "Express", "MongoDB", "MySQL", "Bootstrap", "TailwindCSS", "Typescript", "Vite", "MUI", "Firebase"]
     function boton(tecno) {
         return <button className="button2" onClick={() => setTecnologia(tecno)} ><Svgs icon={tecno} /> {tecno}</button>
     }
